@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: auto;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#EEEEEE;
+}
+
+.m-center{
+    display: block;
+    margin: 0 auto;
+}
+
+.dud {
+    color: #757575;
+  }
+
+
+h2{
+    font-size: 4rem;
+    padding: 10px 0;
+}
+
+h3{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h4{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 12px;
+    background-color: #2270E2;
+    transition: 1s ease-out;
+}
+
+a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.btn:hover{
+    background-color: #216F62;
+    border: 1px solid #102622;
+}
+
+
+.card{
+    width: 18rem;
+    padding: 5px;
+    background-image: linear-gradient(25deg, #d4d2d2, #cac8c8, #a6a6a7, #878787);
+}
+
+
+.card-img-top{
+    display: block;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.card-body{
+    font-size: 10px;
+}
+
+.card-body p{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.container-card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+/**********************NAV*************************/
+
+nav{
+    background-color: #282828;
+}
+
+.nav-link{
+    margin: 0 8px;
+    font-size: 20px;
+    color: #F4F8FD;
+}
+
+.nav-link:hover{
+    color: #216F62;
+    border-bottom: .2px solid rgba(255, 255, 255, 0.21);}
+    
+    nav ul:hover li { filter: blur(1.5px);
+    }
+
+    
+    nav ul li:hover { filter: blur(0px);}
+
+    .navbar-brand{
+        width: 15%;
+    }
+
+/*************************PORTADA*************************/
+
+.portada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    color: #282828;
+}
+
+.portada .descripcion{
+    width: 50%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.portada p{
+    text-align: left;
+}
+
+.portada img{
+    width: 30%;}
+
+/*******************SLOGAN ******************************/
+
+.slogan{
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/***********************Servicio*************************/
+
+.servicios{
+    background-color: #b2b2b288;
+    color: #282828;
+}
+
+.card-servicio{
+    width: 100%;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.servicios .card{
+    width: 18rem;
+    color: #282828;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.servicios p{
+    color: #282828;
+    padding: 10px 5px;
+}
+
+.card-servicio img{
+    width: 80%;
+    padding: 0 20px;
+    margin: 10px 30px;
+}
+
+.card-body-servicio {
+    width: 17rem;
+    height: 380px;
+}
+
+.card-servicio p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.card-servicio h3{
+    text-align: left;
+    color: #00000033;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.card-servicio h4{
+    text-align: left;
+}
+
+.card-body-servicio li{
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+/************************** beneficios ***********************/
+.beneficios .card{
+    width: 18rem;
+    margin: 10px 0;
+}
+
+.beneficios .card img{
+    width: 17rem;
+    height: 17rem;
+}
+
+.beneficios .card-body{
+    height: 150px;
+    padding: 10px;
+}
+.beneficios h4{
+    font-size: 20px;
+}
+
+.beneficios p{
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+}
+
+
+/***************************CONTACTO *********************/
+
+.contacto{
+    background-color: #b2b2b288;
+    color: #282828;
+    padding: 50px 0;
+}
+form{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*******footer*********/
+
+.pie{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.pie .copyright{
+    width: 30%;
+}
+
+.pie .copyright p{
+    font-size: 14px;
+}
+
+
+
+.redes img{
+    width: 200px;
+    margin-left: 14px;
+}
+
+.pie .flecha{
+    width: 30%;
+}
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 80px; 
+    right: 10px; 
+    z-index: 1000; 
+    color: #282828 !important;
+}
+
+.bi-facebook{
+    position: fixed;
+    bottom: 130px; 
+    right: 10px; 
+    z-index: 1000; 
+    color:#282828;}
+
+.bi-instagram{
+    position: fixed;
+    bottom: 180px;
+    right: 10px; 
+    z-index: 1000; 
+    color: #282828;
+}
+
+
+.flecha{
+    width: 30%;
+}
+
+.flecha a svg {
+    margin-left: 90%;
+    color: #282828;
+}
+
+/********* Fin de Footer **********/
+
+
+/******************** Media Querys*********************/
+
+@media (width < 768px) {
+
+h2{
+    font-size: 1.5rem;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+h3{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+h4{
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+h5{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card-body{
+    font-size: 8px;
+}
+
+.card-body p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container-card{
+        flex-wrap: wrap;
+    }
+
+.navbar-brand{
+        width: 50%;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+/***************************CONTACTO *********************/
+
+
+form{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*************************PORTADA*************************/
+
+.portada{
+    flex-wrap: wrap;
+    width: 100%;    
+}
+
+.portada .descripcion{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.portada p{
+    text-align: center;
+}
+
+.portada img{
+    width: 80%;
+    margin: 20px 0;
+    margin-right: 0px;
+    margin-left: 20px;}
+
+/*******************SLOGAN ******************************/
+
+.slogan{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/***********************Servicio*************************/
+
+.card-servicio{
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.card-servicio img{
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.card-servicio p{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.card-servicio h3{
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.card-servicio h4{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.card-body-servicio {
+    height: auto;
+}
+
+.card-body-servicio li{
+    padding: 5px ;
+    font-size: 16px;
+}
+
+/************************** beneficios ***********************/
+.beneficios .card{
+    width: 18rem;
+    height: auto;
+}
+
+.beneficios .card img{
+    width: 17rem;
+    height: 17rem;
+}
+
+.beneficios .card-body{
+    height: 150px;
+    padding: 10px;
+}
+
+.beneficios h3{
+    font-size: 1.3rem;
+}
+.beneficios h4{
+    font-size: 1.1rem;
+}
+
+.beneficios p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*******footer*********/
+
+.pie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.redes img {
+   display: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.pie .whatsapp-icon,
+.pie .bi-facebook,
+.pie .bi-instagram {
+    position: static; 
+    bottom: auto;
+    right: auto;
+    margin-bottom: 10px; 
+    z-index: 1000;
+    color: #282828 !important;}
+
+.pie .copyright {
+    width: 100%;
+}
+
+.pie .copyright p {
+    font-size: 14px;
+}
+
+.pie .flecha a svg {
+        display: block;
+        margin: 0 auto;
+        color: #282828;
+}
+}
